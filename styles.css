@@ -1,46 +1,81 @@
 *{
-  margin: 0;  
-  padding: 0;
-}
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
+    margin:0%;
+    padding:0%;
 }
 
 .first-section{
-background-color:#1f2937;
+    background-color: #1f2937;
 }
 
 #header-logo{
     font-size: 24px;
     color: #F9FAF8;
+    margin-right: 280px;
 }
 
 .header-Link{
     font-size: 18px;
     color: #E5E7EB;
-    margin: 10px;
+    margin:10px;
 }
 
 .navbar{
-    display: flexbox;
-    flex-direction: row;
-    }
-
-ul{
-    display: flexbox;
+    display:flex;
     flex-direction: row;
 }
 
+ul{
+    display:flex;
+    flex-direction:row;
+}
+
 .navbar-left,.navbar-right{
-    display: flexbox;
+    display: flex;
     width: 50%;
     justify-content: center;
     align-items: center;
 }
 
 h1{
-    font-size: 48px;
+    font:size 48px;
     font-weight:bolder;
     color: #F9FAF8;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+} 
+
+.content-right{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.content-left{
+display: flex;
+flex-direction: column;
+width: 50%;
+margin-left: 200px;
+}
+
+img{
+    margin-bottom: 50px;
+}
+
+.sign-up-first-section{
+    background-color: #3882F6;
+    color: white;
+    width: 150px;
+    height: 20px;
+    border: 1px;
+    border-radius: 10px;
+
+}
+ .p-first{
+    font-size:18px;
+    color: #F9FAF8;
+    
 }
